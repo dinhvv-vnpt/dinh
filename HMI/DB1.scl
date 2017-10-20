@@ -1,0 +1,19 @@
+﻿DATA_BLOCK "setpoint"
+{ S7_Optimized_Access := 'FALSE' }
+VERSION : 0.1
+   STRUCT 
+      pass : DInt;
+      I1_Max : DInt;
+      I2_Max : DInt;
+      I3_Max : DInt;
+   END_STRUCT;
+
+
+BEGIN
+   pass := 0;
+   I1_Max := 0;
+   I2_Max := 0;
+   I3_Max := 0;
+
+END_DATA_BLOCK
+
